@@ -4,3 +4,5 @@ So far, the graphics and some underlying game logic is implemented, but gameplay
   - SDL and other libraries are initialised.
   - Sets of pieces are created, with an associated bitboard and image
   - The board and pieces are rendered using this piece set information
+
+The next steps will be to implement game logic, calculate possible moves, and allow the user to select and move pieces.
