@@ -1,0 +1,15 @@
+Create a function to convert FEN to bitsets
+- Take a FEN string as input
+- Separate the string into its constituent parts (one function)
+- Convert the first parts to bitboards
+
+- | these together to create bitboards of each colour
+- | these two together to create a final bitboard of everything on the board
+
+Considerations:
+- How many classes would I need for this? Maybe just one - a BoardPieces class, inheriting from the BoardVariables struct (?)
+- The BoardPieces would contain a number of arrays, initialised as 64 bit unsigned integers
+- How would I then connect this to the GUI?
+
+- Need to untangle all of the inheritance especially around Pieces
+- Reversible moves are any move made by a piece other than a pawn, and contribute to the fifty-move rule
